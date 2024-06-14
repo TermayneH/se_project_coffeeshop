@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Links to pictures of the food item when selectted
+- phone number and address in footer
+- A live motion picture for the landing page
+- animation when hovering over the social-icons in the footer
