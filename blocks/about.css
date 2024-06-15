@@ -7,7 +7,7 @@
 }
 
 .about__title {
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -20,7 +20,7 @@
 
 .about__content {
   color: white;
-  font-family: "Noto Serif, Times New Roman, Sans-Serif";
+  font-family: "Noto Serif", Times New Roman, sans-Serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;

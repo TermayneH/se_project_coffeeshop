@@ -11,10 +11,17 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+::placeholder {
+  font-family: "Inter", Arial, sans-Serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__label_type_checkbox {
@@ -31,10 +38,11 @@
   height: 60px;
   border-radius: 4px;
   padding-left: 12px;
+  padding-right: 12px;
 }
 
 .form__button {
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -52,6 +60,7 @@
 
 .form__button:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .form__checkbox {

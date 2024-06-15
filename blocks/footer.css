@@ -16,7 +16,7 @@
 
 .footer__social-heading {
   color: white;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -42,9 +42,11 @@
 .footer__social-link {
   text-decoration: none;
   color: white;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-size: 16px;
   line-height: 20px;
+  align-items: center;
+  display: flex;
 }
 
 .footer__social-link:hover {
@@ -53,7 +55,7 @@
 
 .footer__copyright {
   color: white;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-size: 16px;
   line-height: 20px;
   margin: 108px 0 0;

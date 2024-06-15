@@ -11,15 +11,3 @@
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-@keyframes pulsate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}

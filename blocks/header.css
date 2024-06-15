@@ -10,6 +10,8 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -18,7 +20,7 @@
   position: absolute;
   right: 5px;
   top: 124px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .header__title {
@@ -28,19 +30,19 @@
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
 }
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif, Times New Roman, Sans-Serif";
+  font-family: "Noto Serif", Times New Roman, sans-Serif;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
 }
 
 .header__span-accent {
-  font-family: "Noto Serif, Times New Roman, Sans-Serif:";
+  font-family: "Noto Serif", Times New Roman, sans-Serif:;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -51,12 +53,13 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter, Arial, Sans-Serif";
+  font-family: "Inter", Arial, sans-Serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  align-items: flex-end;
 }
 
 .header__paragraph {
