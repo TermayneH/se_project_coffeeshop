@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/images/background_header.svg");
+  background-image: url(../images/background_header.svg);
   background-color: #ffffff;
   background-position: center;
   background-size: cover;
@@ -31,6 +31,7 @@
   letter-spacing: -0.6px;
   font-weight: 500;
   font-family: "Inter", Arial, sans-Serif;
+  z-index: 1;
 }
 
 .header__description {
